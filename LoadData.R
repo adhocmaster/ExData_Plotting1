@@ -1,4 +1,4 @@
-if(!exists("LoadEPCData", mode = "function"))
+if(!exists("LoadEPCData", mode = "function") | !exists("nData"))
 {
 	LoadEPCData <- function()
 	{
